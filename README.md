@@ -11,6 +11,8 @@ npm run dev      # http://localhost:5173
 npm run build    # statik çıktı: dist/
 ```
 
+**Önizleme linki:** https://ajlojyqy66.github.io/les-benjamins-workshop/ (GitHub Pages, `gh-pages` dalı). Değişikliklerden sonra `npm run deploy` siteyi derleyip yeniden yayınlar. Önizleme sürümünde arama motorları için `noindex` etiketi var; canlıya alırken `index.html` içinden kaldırın.
+
 `dist/` herhangi bir statik hosting'e (Netlify, Vercel, S3, Firebase Hosting, kendi sunucunuz) olduğu gibi yüklenebilir. `base: './'` olduğu için alt klasörde de çalışır.
 
 ## Backend bağlantısı (Google Sheets)
